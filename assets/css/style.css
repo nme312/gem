@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/images.jpg");
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#target-number {
+    background-color: darkmagenta;
+}
+
+#w-l-ratio {
+    background-color: crimson;
+}
+
+#total-score {
+    background-color: orange;
+}
+
+#current-total {
+    background-color: rgb(2, 219, 219);
+}

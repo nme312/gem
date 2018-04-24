@@ -11,6 +11,8 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
 
@@ -20,26 +22,26 @@
 
         <div class="row">
 
-            <div class="col-md-4 bg-primary m-3" id="game-title">Crystal Game</div>
+            <div class="col-md-12 bg-dark mt-3 mb-3 text-center" id="game-title">Crystal Game</div>
         
         </div>
 
         <div class="row">
 
-            <div class="col-md-6 bg-warning m-3" id="game-rules">This is how you play</div>
+            <div class="col-md-12 bg-dark mt-3 mb-3" id="game-rules">Click on a gem to raise your score. Each gem is worth a different number. Reach the target number to win the game, but if your score goes over the target you lose.</div>
         
         </div>
 
         <div class="row">
 
-            <div class="col-md-3 bg-warning m-3" id="target-number">This is your target number: <span id="target-number-span"></span></div>
-            <div class="col-md-2 bg-primary m-3" id="w/l-ratio">These are your wins and loses: <span id="user-wins"></span>/<span id="user-loses"></span></div>
+            <div class="col-md-4 mt-3 mb-3" id="target-number">Target: <span id="target-number-span"></span></div>
+            <div class="col-md-4 offset-md-4 mt-3 mb-3" id="w-l-ratio">W/L: <span id="user-wins"></span>/<span id="user-loses"></span></div>
        
         </div>
 
         <div class="row">
 
-            <div class="col-md-6 m-3 bg-primary" id="game-gems">
+            <div class="col-md-12 bg-dark text-center mt-3 mb-3" id="game-gems">
                 <img class="m-3 gem gem-1" id="purple-gem" src="./assets/images/Crystal_Shard-512.png" alt="purple-gem" height="60" width="60">
                 <img class="m-3 gem gem-2" id="red-gem" src="./assets/images/diamond-162068_960_720.png" alt="red-gem" height="60" width="60">
                 <img class="m-3 gem gem-3" id="orange-gem" src="./assets/images/polygon_png_by_gamingdeadtv-dbnx6x3.png" alt="orange-gem" height="95" width="95">
@@ -50,10 +52,10 @@
 
         <div class="row">
 
-            <div class="col-md-4 m-3 bg-warning" id="total-score">
+            <div class="col-md-12" id="total-score">
                 Your total score is:
             </div>
-            <div class="col-md-4 bg-primary m-3" id="current-total"></div>
+            <div class="col-md-12" id="current-total"></div>
 
         </div>
 
